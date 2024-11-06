@@ -85,4 +85,13 @@ public class CalculadoraTest {
          calculadora.presentarTablaMultiplicar(6);
 
     }
+    @Test
+    public void testCalcularTablaMultiplicar(){
+        // Preparo
+        Calculadora calculadora = new Calculadora();
+         // Ejecuto
+         calculadora.calcularTablaMultiplicar(9);
+
+    }
+
 }
