@@ -76,4 +76,13 @@ public class CalculadoraTest {
         }
      
     }
+
+    @Test
+    public void testPresentarTablaMultiplicar(){
+        // Preparo
+        Calculadora calculadora = new Calculadora();
+         // Ejecuto
+         calculadora.presentarTablaMultiplicar(6);
+
+    }
 }
