@@ -48,5 +48,39 @@ public class Calculadora {
         }
         return tablaDeMultiplicar;
     }
+
+    public int[] calcularTablaMultiplicarConWhile(int numero){ 
+        //creo el array
+        int[] tablaDeMultiplicar = new int [11];
+        //int[] tablaDeMultiplicar = new int [] {0,0,0,0,0,0,0,0,0,0};
+
+        int i = 0;
+        while ( i <= tablaDeMultiplicar.length - 1){ 
+            tablaDeMultiplicar[i] = numero * i;
+            i++;
+        }
+
+        //Retorno el array con la tabla de multiplicar
+        return tablaDeMultiplicar;
+
+       
+    }
+
+    public int[] calcularTablaMultiplicarConDoWhile(int numero){ 
+        //creo el array
+        int[] tablaDeMultiplicar = new int [11];
+        //int[] tablaDeMultiplicar = new int [] {0,0,0,0,0,0,0,0,0,0};
+
+        int i = 0;
+        do { 
+            tablaDeMultiplicar[i] = numero * i;
+            i++;
+        }while ( i <= tablaDeMultiplicar.length - 1);
+
+        //Retorno el array con la tabla de multiplicar
+        return tablaDeMultiplicar;
+
+       
+    }
 }
  

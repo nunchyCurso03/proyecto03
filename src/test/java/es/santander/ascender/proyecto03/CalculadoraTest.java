@@ -94,4 +94,23 @@ public class CalculadoraTest {
 
     }
 
+    @Test
+    public void testCalcularTablaMultiplicarConWile(){
+        // Preparo
+        Calculadora calculadora = new Calculadora();
+         // Ejecuto
+         calculadora.calcularTablaMultiplicarConWhile(9);
+
+    }
+
+    @Test
+    public void testCalcularTablaMultiplicarConDoWhile(){
+        // Preparo
+        Calculadora calculadora = new Calculadora();
+         // Ejecuto
+         calculadora.calcularTablaMultiplicarConDoWhile(9);
+
+    }
+
+
 }
